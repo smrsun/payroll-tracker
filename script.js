@@ -3,7 +3,7 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data  
 // TODO: Get user input to create and return an array of employee objects
-// added command prompts for employee and salary
+// added command prompts array for employee and salary and if else to continue asking for employee info until cancel is pressed.
 
 
 const collectEmployees = function() {
@@ -34,6 +34,7 @@ infoArray.push(employeesTally)
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+  //set calculation for average salary of employees and show text display for such
 let averageSalary = 0;
 let totalSalary = 0;
  for (let i = 0; i < employeesArray.length; i++ ) {
@@ -47,6 +48,7 @@ totalSalary += employeesArray[i].salary;
 
 // Select a random employee
  // TODO: Select and display a random employee
+ // set function to draw random employee from array and show text in console 
 const getRandomEmployee = function(employeesArray) {
 const randomNumber = Math.floor(Math.random() * employeesArray.length);
 const winner = employeesArray[randomNumber]
