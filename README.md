@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. The app is to feature dynamically updated HTML and CSS powered by JavaScript code, and have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+To modify starter code to create an application that enables a payroll manager to view and manage employee payroll data. The app is to feature dynamically updated HTML and CSS powered by JavaScript code, and have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
 ### Detail of Work
 
@@ -15,7 +15,8 @@ Modify starter code to create an application that enables a payroll manager to v
     * Commented on changed code 
 
 
-[Employee payroll tracker](http://127.0.0.1:5501/index.html)
+
+[Link to Employee Payroll Tracker](http://127.0.0.1:5500/payroll-tracker/index.html)
 
 ![Link for photo of finished page](image-2.png)
 
